@@ -15,13 +15,13 @@
 <div class="border section">
     <div>
         <span>班级（必填）：</span>
-        <input type="text" id="classroom"/>
+        <input id="classroom"/>
     </div>
-    <div>
+    <div class="id">
         <span>学号（必填）：</span>
         <input type="text" id="id"/>
     </div>
-    <div>
+    <div class="name">
         <span>姓名（必填）：</span>
         <input type="text" id="name"/>
     </div>
@@ -134,12 +134,16 @@
     </div>
     <ol class="border no-margin">
         <li>
-            <span>简述什么是模型以及模型的表现形式？</span>
-            <textarea name="textarea" id="textarea" cols="25" rows="8"></textarea>
+            <div class="five">
+                <span>简述什么是模型以及模型的表现形式？</span>
+            </div>
+
+            <textarea name="textarea" id="textarea" cols="130" rows="8"></textarea>
         </li>
     </ol>
 </div>
-<input type="submit" value="计算分数">
-
+<div align="center">
+    <button class="">计算分数</button>
+</div>
 </body>
 </html>
